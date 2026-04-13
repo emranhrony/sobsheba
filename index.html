@@ -30,10 +30,9 @@
       margin: auto;
     }
 
-    /* Header */
     .header {
       padding: 18px 0;
-      background: rgba(255,255,255,0.8);
+      background: rgba(255,255,255,0.85);
       backdrop-filter: blur(10px);
       position: sticky;
       top: 0;
@@ -73,16 +72,23 @@
       color: #1c4ed8;
     }
 
+    .nav-btn,
+    .btn-primary,
+    .order-btn,
+    .cta-box a {
+      display: inline-block;
+      color: #fff;
+      font-weight: 700;
+      border-radius: 14px;
+      transition: 0.3s ease;
+    }
+
     .nav-btn {
       background: linear-gradient(90deg, #1c4ed8, #7c3aed);
-      color: #fff;
       padding: 10px 20px;
-      border-radius: 12px;
-      font-weight: 600;
       box-shadow: 0 10px 25px rgba(28,78,216,0.18);
     }
 
-    /* Hero */
     .hero {
       padding: 80px 0 60px;
     }
@@ -134,14 +140,12 @@
 
     .btn-primary {
       background: linear-gradient(90deg, #ff7a00, #ff4d6d);
-      color: #fff;
       padding: 14px 28px;
-      border-radius: 14px;
-      font-weight: 700;
       box-shadow: 0 14px 28px rgba(255,122,0,0.22);
     }
 
     .btn-secondary {
+      display: inline-block;
       background: #ffffff;
       color: #1c4ed8;
       padding: 14px 28px;
@@ -252,7 +256,6 @@
       color: #334155;
     }
 
-    /* Services */
     .section-title {
       text-align: center;
       margin-bottom: 14px;
@@ -325,15 +328,10 @@
     }
 
     .order-btn {
-      display: inline-block;
       background: linear-gradient(90deg, #1c4ed8, #7c3aed);
-      color: white;
       padding: 12px 20px;
-      border-radius: 12px;
-      font-weight: 600;
     }
 
-    /* Why Us */
     .why-us {
       padding: 20px 0 80px;
     }
@@ -364,7 +362,6 @@
       line-height: 1.8;
     }
 
-    /* CTA */
     .cta {
       padding: 0 0 90px;
     }
@@ -392,15 +389,11 @@
     }
 
     .cta-box a {
-      display: inline-block;
       background: #fff;
       color: #1c4ed8;
       padding: 14px 28px;
-      border-radius: 14px;
-      font-weight: 700;
     }
 
-    /* Footer */
     .footer {
       background: #ffffff;
       border-top: 1px solid #edf2ff;
@@ -410,7 +403,6 @@
       font-size: 15px;
     }
 
-    /* Responsive */
     @media (max-width: 992px) {
       .hero-wrap,
       .service-grid,
@@ -432,10 +424,6 @@
       .service-grid,
       .why-grid {
         grid-template-columns: 1fr;
-      }
-
-      .hero {
-        padding: 60px 0 40px;
       }
 
       .hero h1 {
@@ -468,7 +456,7 @@
         <a href="#">রিভিউ</a>
         <a href="#">যোগাযোগ</a>
       </nav>
-      <a href="#" class="nav-btn">অর্ডার করুন</a>
+      <a href="https://wa.me/8801572631745?text=%E0%A6%86%E0%A6%B8%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%81%20%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%81%E0%A6%AE%2C%20%E0%A6%86%E0%A6%AE%E0%A6%BF%20%E0%A6%86%E0%A6%AA%E0%A6%A8%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B0%20%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AD%E0%A6%BF%E0%A6%B8%20%E0%A6%A8%E0%A6%BF%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87%E0%A5%A4" class="nav-btn" target="_blank">অর্ডার করুন</a>
     </div>
   </header>
 
@@ -483,8 +471,8 @@
         </p>
 
         <div class="hero-buttons">
-          <a href="#" class="btn-primary">এখনই অর্ডার করুন</a>
-          <a href="#" class="btn-secondary">প্যাকেজ দেখুন</a>
+          <a href="https://wa.me/8801572631745?text=%E0%A6%86%E0%A6%B8%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%81%20%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%81%E0%A6%AE%2C%20%E0%A6%86%E0%A6%AE%E0%A6%BF%20%E0%A6%8F%E0%A6%96%E0%A6%A8%E0%A6%87%20%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%20%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87%E0%A5%A4" class="btn-primary" target="_blank">এখনই অর্ডার করুন</a>
+          <a href="#packages" class="btn-secondary">প্যাকেজ দেখুন</a>
         </div>
 
         <div class="hero-features">
@@ -513,17 +501,20 @@
           <li>✔ ফ্রেন্ডলি সাপোর্ট</li>
         </ul>
 
-        <a href="#" class="btn-primary">অর্ডার নাও</a>
+        <a
+          href="https://wa.me/8801572631745?text=%E0%A6%86%E0%A6%B8%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%81%20%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%81%E0%A6%AE%2C%20%E0%A6%86%E0%A6%AE%E0%A6%BF%20%22%2010K%20Facebook%20Follower%20%22%20%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A7%87%E0%A6%9C%E0%A6%9F%E0%A6%BF%20%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%20%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87%E0%A5%A4%20%E0%A6%A6%E0%A7%9F%E0%A6%BE%20%E0%A6%95%E0%A6%B0%E0%A7%87%20%E0%A6%A1%E0%A6%BF%E0%A6%9F%E0%A7%87%E0%A6%87%E0%A6%B2%E0%A6%B8%20%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%A8%E0%A5%A4"
+          class="btn-primary"
+          target="_blank"
+        >অর্ডার নাও</a>
       </div>
     </div>
   </section>
 
-  <section class="services">
+  <section class="services" id="packages">
     <div class="container">
-      <h2 class="section-title">আমাদের জনপ্রিয় সার্ভিস</h2>
+      <h2 class="section-title">আমাদের জনপ্রিয় প্যাকেজ</h2>
       <p class="section-subtitle">
-        সাশ্রয়ী দামে সোশ্যাল মিডিয়া গ্রোথ সার্ভিস নিন। পেজ, প্রোফাইল অথবা ব্র্যান্ড
-        দ্রুত গ্রো করতে সেরা প্যাকেজ বেছে নিন।
+        সাশ্রয়ী দামে সোশ্যাল মিডিয়া গ্রোথ সার্ভিস নিন। আপনার প্রয়োজন অনুযায়ী প্যাকেজ বেছে নিন।
       </p>
 
       <div class="service-grid">
@@ -532,7 +523,11 @@
           <h3>Facebook Follower</h3>
           <p>আপনার ফেসবুক পেজ বা প্রোফাইলে দ্রুত ফলোয়ার বাড়ানোর নির্ভরযোগ্য সার্ভিস।</p>
           <div class="price-tag">শুরু ৳299</div>
-          <a href="#" class="order-btn">অর্ডার করুন</a>
+          <a
+            href="https://wa.me/8801572631745?text=%E0%A6%86%E0%A6%B8%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%81%20%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%81%E0%A6%AE%2C%20%E0%A6%86%E0%A6%AE%E0%A6%BF%20%22Facebook%20Follower%20Package%22%20%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%20%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87%E0%A5%A4%20%E0%A6%A6%E0%A7%9F%E0%A6%BE%20%E0%A6%95%E0%A6%B0%E0%A7%87%20%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A7%87%E0%A6%9C%E0%A7%87%E0%A6%B0%20%E0%A6%A1%E0%A6%BF%E0%A6%9F%E0%A7%87%E0%A6%87%E0%A6%B2%E0%A6%B8%20%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%A8%E0%A5%A4"
+            class="order-btn"
+            target="_blank"
+          >অর্ডার করুন</a>
         </div>
 
         <div class="service-card">
@@ -540,7 +535,11 @@
           <h3>Instagram Follower</h3>
           <p>ব্র্যান্ড বা ব্যক্তিগত ইনস্টাগ্রাম প্রোফাইলের জন্য ক্লিন ও ফাস্ট ডেলিভারি।</p>
           <div class="price-tag">শুরু ৳299</div>
-          <a href="#" class="order-btn">অর্ডার করুন</a>
+          <a
+            href="https://wa.me/8801572631745?text=%E0%A6%86%E0%A6%B8%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%81%20%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%81%E0%A6%AE%2C%20%E0%A6%86%E0%A6%AE%E0%A6%BF%20%22Instagram%20Follower%20Package%22%20%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%20%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87%E0%A5%A4%20%E0%A6%A6%E0%A7%9F%E0%A6%BE%20%E0%A6%95%E0%A6%B0%E0%A7%87%20%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A7%87%E0%A6%9C%E0%A7%87%E0%A6%B0%20%E0%A6%A1%E0%A6%BF%E0%A6%9F%E0%A7%87%E0%A6%87%E0%A6%B2%E0%A6%B8%20%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%A8%E0%A5%A4"
+            class="order-btn"
+            target="_blank"
+          >অর্ডার করুন</a>
         </div>
 
         <div class="service-card">
@@ -548,7 +547,11 @@
           <h3>TikTok Follower</h3>
           <p>ভাইরাল গ্রোথের জন্য টিকটক ফলোয়ার, ভিউ এবং এনগেজমেন্ট সার্ভিস।</p>
           <div class="price-tag">শুরু ৳399</div>
-          <a href="#" class="order-btn">অর্ডার করুন</a>
+          <a
+            href="https://wa.me/8801572631745?text=%E0%A6%86%E0%A6%B8%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%81%20%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%81%E0%A6%AE%2C%20%E0%A6%86%E0%A6%AE%E0%A6%BF%20%22TikTok%20Follower%20Package%22%20%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%20%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87%E0%A5%A4%20%E0%A6%A6%E0%A7%9F%E0%A6%BE%20%E0%A6%95%E0%A6%B0%E0%A7%87%20%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A7%87%E0%A6%9C%E0%A7%87%E0%A6%B0%20%E0%A6%A1%E0%A6%BF%E0%A6%9F%E0%A7%87%E0%A6%87%E0%A6%B2%E0%A6%B8%20%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%A8%E0%A5%A4"
+            class="order-btn"
+            target="_blank"
+          >অর্ডার করুন</a>
         </div>
 
         <div class="service-card">
@@ -556,7 +559,11 @@
           <h3>YouTube Service</h3>
           <p>চ্যানেল গ্রোথের জন্য সাবস্ক্রাইবার, ভিউ এবং অন্যান্য প্রয়োজনীয় সার্ভিস।</p>
           <div class="price-tag">শুরু ৳499</div>
-          <a href="#" class="order-btn">অর্ডার করুন</a>
+          <a
+            href="https://wa.me/8801572631745?text=%E0%A6%86%E0%A6%B8%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%81%20%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%81%E0%A6%AE%2C%20%E0%A6%86%E0%A6%AE%E0%A6%BF%20%22YouTube%20Service%20Package%22%20%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%20%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87%E0%A5%A4%20%E0%A6%A6%E0%A7%9F%E0%A6%BE%20%E0%A6%95%E0%A6%B0%E0%A7%87%20%E0%A6%AA%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%95%E0%A7%87%E0%A6%9C%E0%A7%87%E0%A6%B0%20%E0%A6%A1%E0%A6%BF%E0%A6%9F%E0%A7%87%E0%A6%87%E0%A6%B2%E0%A6%B8%20%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%BE%E0%A6%AC%E0%A7%87%E0%A6%A8%E0%A5%A4"
+            class="order-btn"
+            target="_blank"
+          >অর্ডার করুন</a>
         </div>
       </div>
     </div>
@@ -599,7 +606,10 @@
           Facebook, Instagram, TikTok বা YouTube—যে প্ল্যাটফর্মেই কাজ করেন না কেন,
           সঠিক সার্ভিস নিয়ে আপনার ব্র্যান্ডকে আরও এগিয়ে নিন।
         </p>
-        <a href="#">এখনই অর্ডার করুন</a>
+        <a
+          href="https://wa.me/8801572631745?text=%E0%A6%86%E0%A6%B8%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%81%20%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%81%E0%A6%AE%2C%20%E0%A6%86%E0%A6%AE%E0%A6%BF%20%E0%A6%86%E0%A6%AA%E0%A6%A8%E0%A6%BE%E0%A6%A6%E0%A7%87%E0%A6%B0%20%E0%A6%B8%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%AD%E0%A6%BF%E0%A6%B8%20%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87%20%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87%E0%A5%A4"
+          target="_blank"
+        >এখনই অর্ডার করুন</a>
       </div>
     </div>
   </section>
